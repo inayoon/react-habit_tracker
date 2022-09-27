@@ -1,9 +1,9 @@
 import './App.css';
-import Habit from './components/Habit.js';
+import Habits from './components/Habits.js';
 
 function App() {
   return (
-    <Habit />
+    <Habits />
   );
 }
 
