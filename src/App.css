@@ -1,7 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'DM Serif Text', serif;
+}
+
 button {
   outline: none;
   border: 0;
   cursor: pointer;
+}
+
+
+.navbar {
+  font-size: 2rem;
+  padding: 1em;
+  background-color: blanchedalmond;
+}
+
+.navbar-logo {
+  color: #c55f4e;
+  margin-right: 0.5em;
+}
+
+.navbar-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2em;
+  background-color: #c55f4e;
+  color: white;
+  border-radius: 50%;
+}
+
+
+.add-input {
+  font-size: 2rem;
+}
+
+.add-input {
+  margin-right: 0.2em;
+  margin-left: 0.8em;
+  margin-top: 1.4em;
+}
+
+.add-button {
+  height: 100%;
+  font-size: 1.5rem;
+  padding: 0.3em 0.5em;
+  background-color: #d7897e;
+  color: white;
 }
 
 .habit {
