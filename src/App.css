@@ -95,3 +95,15 @@ button {
   font-size: 2.5rem;
   color: #d7897e;
 }
+
+.habit-delete {
+  font-size: 2.5rem;
+  color: darkred;
+}
+
+.habit-reset {
+  font-size: 1.5rem;
+  padding: 0.2em 1em;
+  background-color: #eeb1a2;
+  color: white;
+}
